@@ -15,12 +15,12 @@
               <div class="col-sm-6 col-8 ">
                 <br>
                 <h5 class="white-text">Navegacion</h5>
-                <ul>
+                <!-- <ul>
                   <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
                   <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
+                </ul> -->
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@
 	<div class="container">
  
 	<header role="banner">
-		<div class="col-lg-11">
+		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-2">
 				<hgroup>
@@ -59,7 +59,7 @@
 		</div>
 	</section> 
 	<div class="row graybackground">
-	<section   class="col-md-9 col-md-offset-1 ">
+	<section   class="col-md-10 col-md-offset-1">
 		<div class="row"> 
 			<div class="col-md-6 col-xs-12">
 				 
@@ -70,7 +70,7 @@
 				<p>Especialista en el desarrollo de programas y mantenimiento de sistemas con más de cinco años de experiencia. Capacitado para trabajar en todas las etapas del desarrollo de programas. Con iniciativa propia, responsabilidad y liderazgo.</p>
 			</div>
 			 
-			<div class=" col-md-5 col-xs-12">
+			<div class="col-md-offset-1 col-md-5 col-xs-12">
 				<h3><i class="small material-icons">computer</i>  Habilidades </h3>
 				<ul class="barres">
 					<li data-skills="90">C# <span style="width: 90%;"></span></li>
@@ -99,7 +99,16 @@
 						<span class="dates">Octubre 2017 - Actual</span>
 					</div>
 					<div class="col-md-11">	
-						<p>*Desarrollo web,  *Desarrollo de soluciones a través de PHP, *Creación de en documentos de Excel a través de consultas a BD, *Carga de Información a BD a través de documentos de Excel</p>
+						<ul class="collection">
+						<li class="collection-item">Desarrollo web</li>
+						 <li class="collection-item">Desarrollo de soluciones a través de PHP</li>
+						 <li class="collection-item">Creación de en documentos de Excel a través de consultas a BD</li>
+						 <li class="collection-item">Carga de Información a BD a través de documentos de Excel </li>
+						  <li class="collection-item">Maquetado de interfaces</li>
+					      <li class="collection-item">Generación de archivos de validación por medio de consultas SQL</li>
+					      <li class="collection-item">Desarrollo de funcionalidades para módulos existentes.</li> 
+
+						 <ul>
 					</div>
 				</div>
 				
@@ -114,7 +123,14 @@
 						<span class="dates">Diciembre 2015 - Octubre 2017 </span>
 					</div>
 					<div class="col-md-11">
-						<p>*Desarrollo web, *Implementación de HTML responsivo a través de BoosTrap y Materialize, *Desarrollo de soluciones a través de MVC, *Creación de cargas masivas a través de documentos de Excel, * Atención a clientes, * Creación de Json a través de soluciones REST</p>
+						<ul class="collection">
+						<li class="collection-item">Desarrollo web</li>
+						<li class="collection-item">Implementación de HTML responsivo a través de BoosTrap y Materialize</li>
+						<li class="collection-item">Desarrollo de soluciones a través de MVC</li>
+						<li class="collection-item">Creación de cargas masivas a través de documentos de Excel</li>
+						<li class="collection-item"> Atención a clientes</li>
+						<li class="collection-item"> Creación de Json a través de soluciones REST</li>
+						</ul>
 					</div>
 				</div>
 				<div class="row">	
@@ -128,7 +144,12 @@
 						<span class="dates">Marzo 2015 - Diciembre 2015</span>
 					</div>
 					<div class="col-md-11">
-						<p>*Creación de Meta data para el buscador Interamericano, Manejo del documentos y clasificación de los mismos, *Creación de webpart para carga de archivos a la base de datos, Implementación del portal de SharePoint del sitio, Creación de Búsqueda por medio de una webpart de mapa de árbol </p>
+						<ul class="collection">
+						<li class="collection-item">Creación de Meta data para el buscador Interamericano</li>
+						<li class="collection-item">Manejo del documentos y clasificación de los mismos</li>
+						<li class="collection-item">Creación de webpart para carga de archivos a la base de datos</li> 
+						<li class="collection-item">	Implementación del portal de SharePoint del sitio</li> 
+						<li class="collection-item">	Creación de Búsqueda por medio de una webpart de mapa de árbol</li>  
 					</div>
 				</div>
 				<div class="row">	
@@ -142,7 +163,15 @@
 						<span class="dates">Julio 2012 - Marzo 2014</span>
 						</div>
 					<div class="col-md-11">
-						<p>*Publicación de webparts * Administración de los contenidos de sitio *Administración de los perfiles de usuarios *Administración de contenido *Creación de Copias de seguridad SQL server *Administración de Layouts y Masterpages  *Creación de webparts  </p>
+						<ul class="collection">
+						<li class="collection-item">Publicación de webparts</li>
+						<li class="collection-item">Administración de los contenidos de sitio</li>
+						<li class="collection-item">Administración de los perfiles de usuarios</li>
+						<li class="collection-item">Administración de contenido</li>
+						<li class="collection-item">Creación de Copias de seguridad SQL server </li>
+						<li class="collection-item">Administración de Layouts y Masterpages
+							<li class="collection-item">Creación de webparts</li>
+							  </ul>
 					</div>
 				</div>
 				<div class="row">	
@@ -156,7 +185,15 @@
 						<span class="dates">Mayo 2012 - Diciembre 2015	</span>
 					</div>
 					<div class="col-md-11">
-						<p>Desarrollo de webparts *Publicación de webparts *Depuración de webparts *Implementación de webparts *Instalación de granjas SharePoint*Instalación y desarrollo de FAST for SharePoint *Administración de SharePoint 2010   </p>
+					<ul class="collection">
+					<li class="collection-item">Desarrollo de webparts</li>
+					<li class="collection-item">Publicación de webparts</li>
+					<li class="collection-item">Depuración de webparts</li>
+					<li class="collection-item">Implementación de webparts</li>
+					<li class="collection-item">Instalación de granjas SharePoint</li>
+					<li class="collection-item">Instalación y desarrollo de FAST for SharePoint</li>
+					<li class="collection-item">Administración de SharePoint 2010</li>  
+				</ul>
 					</div>
 				</div>
 				<div class="row">	
@@ -170,14 +207,27 @@
 						<span class="dates">Noviembre 2011 - Abril 2012	</span>
 					</div>
 					<div class="col-md-11">
-						<p>Mantenimiento Web*Programación Web *Redacción de contenido web*Administración del contenido web*Elaboración de documentación*Realización de páginas web*Depuración de páginas web *Administración de contenido en SharePoint *Creación de sitios en SharePoint *Administración de sitios en SharePoint *Administración de información en SharePoint *Personalización de listas en SharePoint *Creación de listas en SharePoint  </p>
+						<ul class="collection">
+							<li class="collection-item">Mantenimiento Web</li>
+							<li class="collection-item">Programación Web</li></li>
+							<li class="collection-item">Redacción de contenido web</li>
+							<li class="collection-item">Administración del contenido web</li>
+						    <li class="collection-item">Elaboración de documentación</li>
+						 	<li class="collection-item">Realización de páginas web</li>
+							<li class="collection-item">Depuración de páginas web</li>
+							<li class="collection-item">Administración de contenido en SharePoint</li>
+							<li class="collection-item">Creación de sitios en SharePoint</li>
+							<li class="collection-item">Administración de sitios en SharePoint</li>
+							<li class="collection-item">Administración de información en SharePoint</li>
+							<li class="collection-item">Personalización de listas en SharePoint</li>
+							<li class="collection-item">Creación de listas en SharePoint </li> </ul>
 				</div>
 				</div> 
 			</div>
 		</div>
 		<div class="row">
 			<div secc class="col-md-12 ">
-				<h3>Educación</h3>
+				<h3><i class="small material-icons">book</i> Educación</h3>
 			</div>
 			<div class="col-md-12">
 						<h4><strong>Ingeneria en Sistemas Computacionales</strong> Tecnológico de estudios Superiores Ixtapaluca</h4>
@@ -191,107 +241,200 @@
 		</div>
 		
 		<div class="row"> 
-			<div class="col-md-7">
-				<h3>Manejo del Conocimiento </h3>
-				<div secc class="col-md-12 ">
-					<h4><strong>Desarrollo de aplicaciones para SharePoint 2010</strong></h4>
+			<div class="col-md-12">
+				<h3><i class="small material-icons">free_breakfast</i>Manejo del Conocimiento </h3>
+
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>C#</p>
+		             	</div>
+						<div class="card-content center">
+							<p>Usado actualmente.</p>
+						</div>
+						<div class="card-action center">
+							<a href="#">5 años de uso</a>
+						</div>
+		            </div>
 				</div>
-					<div class="col-md-6">
-						<span class="lugar">No usado actualmente </span>
+
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>PHP</p>
+		             	</div>
+						<div class="card-content center">
+							<p>Usado actualmente.</p>
 						</div>
-					<div class="col-md-6">
-						<span class="dates">3 años de uso  </span>
-					</div>
-				
-				<div secc class="col-md-12 ">
-						<h4><strong>Desarrollo de aplicaciones para SharePoint 2013</strong></h4>
+						<div class="card-action center">
+							<a href="#">3 años de uso</a>
+						</div>
+		            </div>
 				</div>
-						<div class="col-md-6">
-						<span class="lugar">No usado actualmente </span>
-						</div><div class="col-md-6">
-						<span class="dates">3 años de uso  </span>
+
+				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>CSS</p>
+		             	</div>
+						<div class="card-content center">
+							<p>Usado actualmente.</p>
 						</div>
-						 
-				<div secc class="col-md-12 ">
-						<h4><strong>C#</strong></h4>
+						<div class="card-action center">
+							<a href="#">5 años de uso</a>
+						</div>
+		            </div>
 				</div>
-						<div class="col-md-6">
-						<span class="lugar">No usado actualmente</span>
-						</div><div class="col-md-6">
-						<span class="dates">5 años de uso  </span>
+
+				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>BoosTrap</p>
+		             	</div>
+						<div class="card-content center">
+							<p>Usado actualmente.</p>
 						</div>
-						 
-					<div secc class="col-md-12 ">
-						<h4><strong>PHP</strong></h4>
-					</div>
-					<div class="col-md-6">
-						<span class="lugar">Usado actualmente   </span>
-						</div><div class="col-md-6">
-						<span class="dates">2 años de uso  </span>
+						<div class="card-action center">
+							<a href="#">2 años de uso</a>
 						</div>
-					<div secc class="col-md-12 ">
-						<h4><strong>CSS</strong></h4>
-					</div>
-					<div class="col-md-6">
-						<span class="lugar">Usado actualmente   </span>
-						</div><div class="col-md-6">
-						<span class="dates">5 años de uso  </span>
+		            </div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>Materialize</p>
+		             	</div>
+						<div class="card-content center">
+							<p>Usado actualmente.</p>
 						</div>
-					<div secc class="col-md-12 ">
-						<h4><strong>SQL</strong></h4>
-					</div>
-					<div class="col-md-6">	
-						<span class="lugar">Usado actualmente   </span>
-					</div><div class="col-md-6">
-						<span class="dates">4 años de uso  </span>
-					</div>	 
-					<div secc class="col-md-12 ">
-						<h4><strong>Maquetado Web</strong></h4>
-					</div>
-					<div class="col-md-6">
-						<span class="lugar">Usado actualmente   </span>
-					</div><div class="col-md-6">
-						<span class="dates">3 años de uso  </span>
-					</div>
-					<div secc class="col-md-12 ">
-						<h4><strong>MVC</strong></h4>
-					</div>
-					<div class="col-md-6">
-						<span class="lugar">Usado actualmente   </span>
-					</div><div class="col-md-6">
-						<span class="dates">2 años de uso  </span>
-					</div>	 
-					<div secc class="col-md-12 ">
-						<h4><strong>BoosTrap  & Materialize</strong></h4>
-					</div>
-					<div class="col-md-6">
-						<span class="lugar">Usado actualmente   </span>
-					</div><div class="col-md-6">
-						<span class="dates">2 años de uso  </span>
-					</div>
+						<div class="card-action center">
+							<a href="#">2 años de uso</a>
+						</div>
+		            </div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>SQL</p>
+		             	</div>
+						<div class="card-content center">
+							<p>Usado actualmente.</p>
+						</div>
+						<div class="card-action center">
+							<a href="#">4 años de uso</a>
+						</div>
+		            </div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>MySQL</p>
+		             	</div>
+						<div class="card-content center">
+							<p>Usado actualmente.</p>
+						</div>
+						<div class="card-action center">
+							<a href="#">2 años de uso</a>
+						</div>
+		            </div>
+				</div>
+
+
+
+				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>Maquetado Web</p>
+		             	</div>
+						<div class="card-content center">
+							<p>Usado actualmente.</p>
+						</div>
+						<div class="card-action center">
+							<a href="#">3 años de uso</a>
+						</div>
+		            </div>
+				</div>
+
+
+				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>MVC</p>
+		             	</div>
+						<div class="card-content center">
+							<p>Usado actualmente.</p>
+						</div>
+						<div class="card-action center">
+							<a href="#">3 años de uso</a>
+						</div>
+		            </div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>SharePoint 2013</p>
+		             	</div>
+						<div class="card-content center">
+							<p>No en Uso.</p>
+						</div>
+						<div class="card-action center">
+							<a href="#">3 años de uso</a>
+						</div>
+		            </div>
+				</div>
+
+
+				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
+					<div class="card">
+						<div class="card-title center">
+		             		<p>SharePoint 2010</p>
+		             	</div>
+						<div class="card-content center">
+							<p>No en Uso.</p>
+						</div>
+						<div class="card-action center">
+							<a href="#">2 años de uso</a>
+						</div>
+		            </div>
+				</div>
+				 
 					 
 			</div>
-	 
-		
+	 </div>
+		<div class="row"> 
+			 
 			<!-- Contact -->
-			<div class="col-md-5 Contact">
+			<div class="col-md-12 Contact">
 				<h3>Contacto</h3>
-				
-				 <div class="col-md-12 col-sm-6">
-					<img src="<?php echo URL; ?>img/map-marker.png"> <span >  Mexico, Estado de México</span> 
-				</div> <div class="col-md-12 col-sm-6">
-					<img src="<?php echo URL; ?>img/skype.png"><span > eibar.ponce</span>
-				</div> <div class="col-md-12 col-sm-6">
+				<div class="col-md-6 col-sm-12">
+					 <div class="col-md-12 col-sm-6">
+						<img src="<?php echo URL; ?>img/map-marker.png"> <span >  Mexico, Estado de México</span> 
+					</div> 
+					<div class="col-md-12 col-sm-6">
+						<img src="<?php echo URL; ?>img/skype.png"><span > eibar.ponce</span>
+					</div>  
+					 <br>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<div class="col-md-12 col-sm-6">
 					<img src="<?php echo URL; ?>img/whatsapp.png" target="_blank"><a href="https://api.whatsapp.com/send?phone=+5215547839036&text=Hola,me gustaria contratar tus servicios?">  5547839036</a>
-				</div> <div class="col-md-12 col-sm-6">
+				</div> 
+				<div class="col-md-12 col-sm-6">
 					<img src="<?php echo URL; ?>img/gmail.png"> <span ><a href="mailto:eibar.ing@gmail.com">eibar.ing@gmail.com</a></span>
 				</div> <div class="col-md-12 col-sm-6">
 					<img src="<?php echo URL; ?>img/web.png"> <span ><a href="http://www.rookye.com.mx">http://www.rookye.com.mx</a></span>
 				</div>
-					 
+				 <br>
+			</div>
+					
 				 
 			</div>
 			</div>
+			<br>
 	</section>
 </div>
  
