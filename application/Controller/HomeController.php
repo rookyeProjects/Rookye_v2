@@ -50,4 +50,28 @@ class HomeController
         require APP . 'view/home/example_two.php';
         require APP . 'view/_templates/footer.php';
     }
+
+    public function CV_Ricardo()
+    {
+        // load views
+        //require APP . 'view/_templates/header.php';
+        require APP . 'view/home/CV_Ricardo.php';
+        require APP . 'view/_templates/footer.php';
+    }
+
+    public function CV_Eibar()
+    {
+        // load views
+        //require APP . 'view/_templates/header.php';
+        require APP . 'view/home/CV_Eibar.php';
+        require APP . 'view/_templates/footer.php';
+    }
+
+    public function CV_Isma()
+    {
+        // load views
+        //require APP . 'view/_templates/header.php';
+        require APP . 'view/home/CV_Isma.php';
+        require APP . 'view/_templates/footer.php';
+    }
 }
