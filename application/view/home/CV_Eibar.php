@@ -14,6 +14,18 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo URL; ?>js/materialize.min.js"></script>
 <script type="text/javascript" src="<?php echo URL; ?>js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+	
+	$(function() {
+  $('.progress-bar').each(function() {
+    var bar_value = $(this).attr('aria-valuenow') + '%';                
+    $(this).animate({ width: bar_value }, { duration: 800, easing: 'easeOutCirc' });
+  });
+});
+
+
+</script>
 </head>
 <style type="text/css">
 	body{background:  #D9D9D9 !important;}
@@ -21,6 +33,31 @@
 	h2{	font-size: 30px !important;}
 	h3{	font-size:24px !important;}	
 	h4{	font-size:20px !important;}	
+
+	section#skills-pgr {
+  padding: 3px 10px 0;
+}
+#skills-pgr div.progress {
+  font-weight: bolder;
+  color: #33a4c9;
+  background-color: #e1e1e1;
+  border: 0px none;
+  box-shadow: none;
+  height:1em;
+}
+div.progress-bar > span {
+    float: left;
+    position: relative;
+    top: -3px;
+    left: 2%;
+    font-size: 12px;
+}
+
+.card .card-reveal p {
+font-size: 9px;
+	}
+
+
 </style>
 
 <body>
@@ -70,19 +107,41 @@
 				<p>Especialista en el desarrollo de programas y mantenimiento de sistemas con más de cinco años de experiencia. Capacitado para trabajar en todas las etapas del desarrollo de programas. Con iniciativa propia, responsabilidad y liderazgo.</p>
 			</div>
 			 
+					 
 			<div class="col-md-offset-1 col-md-5 col-xs-12">
 				<h3><i class="small material-icons">computer</i>  Habilidades </h3>
-				<ul class="barres">
-					<li data-skills="90">C# <span style="width: 90%;"></span></li>
-					<li data-skills="75">PHP<span style="width: 75%;"></span></li>
-					<li data-skills="80">SQL<span style="width: 80%;"></span></li>
-					<li data-skills="90">Boostrap<span style="width: 90%;"></span></li>
-					<li data-skills="90">CSS3<span style="width: 90%;"></span></li>
-					<li data-skills="70">HTML5<span style="width: 70%;"></span></li>
-					<li data-skills="90">MySQL<span style="width: 90%;"></span></li>
-					<li data-skills="90">JQuery<span style="width: 90%;"></span></li>
-				</
-				</ul>
+				<section id="skills-pgr">
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+				      <span>HTML5/CSS3</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+				      <span>C#</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+				      <span>PHP</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+				      <span>JavaScript/jQuery</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+				      <span>SQL/MySQL</span>
+				    </div>
+				  </div>
+				   <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+				      <span>Boostrap/Materialize</span>
+				    </div>
+				  </div>
+				</section>
 			</div>
 		</div>
 		<div class="row"> 
@@ -252,8 +311,16 @@
 						<div class="card-content center">
 							<p>Usado actualmente.</p>
 						</div>
+						<div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <p>Creacion webparts.</p>
+					       <p>Creacion de CMS C#/SQL.</p>
+					       <p>Creacion de DashBoards.</p>
+					       <p>Creacion de Sistemas de control.</p>
+					        <p>Uso de MVC.</p>
+					    </div>
 						<div class="card-action center">
-							<a href="#">5 años de uso</a>
+							<a class="activator">5 años de uso</a>
 						</div>
 		            </div>
 				</div>
@@ -266,8 +333,15 @@
 						<div class="card-content center">
 							<p>Usado actualmente.</p>
 						</div>
+						<div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <p>Desarrollo de CMS PHP/Mysql.</p>
+					       <p>Consultas y Creacion de reportes EXCEL/PDF.</p>
+					        <p>Creacion de DashBoards.</p>
+					         <p>Uso de MVC.</p>
+					    </div>
 						<div class="card-action center">
-							<a href="#">3 años de uso</a>
+							<a  class="activator" >3 años de uso</a>
 						</div>
 		            </div>
 				</div>
@@ -280,8 +354,15 @@
 						<div class="card-content center">
 							<p>Usado actualmente.</p>
 						</div>
+
+						<div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					       <p>Maquetado Web.</p>
+					       <p>Responsive desing.</p>
+					       <p>Páginas web semánticas.</p>
+					     </div>
 						<div class="card-action center">
-							<a href="#">5 años de uso</a>
+							<a class="activator" >5 años de uso</a>
 						</div>
 		            </div>
 				</div>
@@ -294,8 +375,15 @@
 						<div class="card-content center">
 							<p>Usado actualmente.</p>
 						</div>
+
+						<div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					       <p>Maquetado Web</p>
+					       <p>Responsive desing.</p>
+					       <p>Páginas web semánticas.</p>
+					     </div>
 						<div class="card-action center">
-							<a href="#">2 años de uso</a>
+							<a class="activator">2 años de uso</a>
 						</div>
 		            </div>
 				</div>
@@ -308,8 +396,14 @@
 						<div class="card-content center">
 							<p>Usado actualmente.</p>
 						</div>
+						<div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					       <p>Maquetado Web</p>
+					       <p>Responsive desing.</p>
+					       <p>Páginas web semánticas.</p>
+					     </div>
 						<div class="card-action center">
-							<a href="#">2 años de uso</a>
+							<a class="activator">2 años de uso</a>
 						</div>
 		            </div>
 				</div>
@@ -322,8 +416,14 @@
 						<div class="card-content center">
 							<p>Usado actualmente.</p>
 						</div>
+						<div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					       <p>Crear y presentar informes derivados de consultas</p>
+					       <p>Mantenimiento de la integridad de las bases de datos.</p>
+					       
+					     </div>
 						<div class="card-action center">
-							<a href="#">4 años de uso</a>
+							<a class="activator">4 años de uso</a>
 						</div>
 		            </div>
 				</div>
@@ -336,39 +436,14 @@
 						<div class="card-content center">
 							<p>Usado actualmente.</p>
 						</div>
+						<div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					       <p>Crear y presentar informes derivados de consultas</p>
+					       <p>Mantenimiento de la integridad de las bases de datos.</p>
+					       
+					     </div>
 						<div class="card-action center">
-							<a href="#">2 años de uso</a>
-						</div>
-		            </div>
-				</div>
-
-
-
-				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
-					<div class="card">
-						<div class="card-title center">
-		             		<p>Maquetado Web</p>
-		             	</div>
-						<div class="card-content center">
-							<p>Usado actualmente.</p>
-						</div>
-						<div class="card-action center">
-							<a href="#">3 años de uso</a>
-						</div>
-		            </div>
-				</div>
-
-
-				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
-					<div class="card">
-						<div class="card-title center">
-		             		<p>MVC</p>
-		             	</div>
-						<div class="card-content center">
-							<p>Usado actualmente.</p>
-						</div>
-						<div class="card-action center">
-							<a href="#">3 años de uso</a>
+							<a class="activator">2 años de uso</a>
 						</div>
 		            </div>
 				</div>
@@ -376,31 +451,25 @@
 				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
 					<div class="card">
 						<div class="card-title center">
-		             		<p>SharePoint 2013</p>
+		             		<p>SharePoint</p>
 		             	</div>
 						<div class="card-content center">
 							<p>No en Uso.</p>
 						</div>
+						<div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					       <p>Creacion de Webparts 2013 y 2015 </p>
+					       <p>Mantenimiento y control de portales 2013 y 2015.</p>
+					       <p>Creación de plantillas</p>
+					       <p>Instalacion de instancias desde 0</p>
+					     </div>
 						<div class="card-action center">
-							<a href="#">3 años de uso</a>
+							<a  class="activator" >3 años de uso</a>
 						</div>
 		            </div>
 				</div>
 
-
-				<div class="col-xs-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 ">
-					<div class="card">
-						<div class="card-title center">
-		             		<p>SharePoint 2010</p>
-		             	</div>
-						<div class="card-content center">
-							<p>No en Uso.</p>
-						</div>
-						<div class="card-action center">
-							<a href="#">2 años de uso</a>
-						</div>
-		            </div>
-				</div>
+ 
 				 
 					 
 			</div>
