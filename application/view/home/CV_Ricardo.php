@@ -50,21 +50,46 @@
 					<p>Ingeniero en sistemas computacionales especializado en desarrollo web con una gran experiencia en el campo profesional de servicios a la medida de las necesidades del cliente, con el compromiso de siempre brindar lo mejos.</p>
 				</div>
 			</div>
-			 
-			<div class=" col-md-6 col-xs-12">
-				<div class="col-md-12">
-					<h3><i class="small material-icons">computer</i>  Habilidades </h3>
-					<ul class="barres">
-						<li data-skills="17">C# <span style="width: 40%;"></span></li>
-						<li data-skills="17">PHP<span style="width: 90%;"></span></li>
-						<li data-skills="17">SQL<span style="width: 85%;"></span></li>
-						<li data-skills="1">Boostrap<span style="width: 50%;"></span></li>
-						<li data-skills="17">Oracle<span style="width: 50%;"></span></li>
-						<li data-skills="17">MySQL<span style="width: 90%;"></span></li>
-						<li data-skills="17">JQuery<span style="width: 75%;"></span></li>
-						<li data-skills="17">Java<span style="width: 60%;"></span></li>
-					</ul>
-				</div>
+
+			<div class="col-md-offset-1 col-md-5 col-xs-12">
+				<h3><i class="small material-icons">computer</i>  Habilidades </h3>
+				<section id="skills-pgr">
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+				      <span>C#</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+				      <span>PHP</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+				      <span>SQL</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+				      <span>Bootstrap</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+				      <span>MySQL</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+				      <span>JQuery</span>
+				    </div>
+				  </div>
+				  <div class="progress">
+				    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+				      <span>Java</span>
+				    </div>
+				  </div>
+				</section>
 			</div>
 		</div>
 		<div class="row"> 
@@ -164,6 +189,16 @@
 					<div class="card-content center">
 						<p>Usado actualmente.</p>
 					</div>
+					<div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+				      <p>Generacion de Reportes.</p>
+				      <p>Generacion de documentos.</p>
+				      <p>Graficas de información.</p>
+				      <p>Programacion para hardware periferico.</p>
+				      <p>Programación en MVC.</p>
+				      <p>Webservices.</p>
+				      <p>Geolocalización</p>
+				    </div>
 					<div class="card-action center">
 						<a href="#">8 años de uso</a>
 					</div>
@@ -177,6 +212,12 @@
 					<div class="card-content center">
 						<p>Usado actualmente.</p>
 					</div>
+					<div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+				      <p>Generacion de Reportes.</p>
+				      <p>Generacion de documentos.</p>
+				      <p>Desarrollo de aplicaciones de escritorio</p>
+				    </div>
 					<div class="card-action center">
 						<a href="#">3 años de uso</a>
 					</div>
@@ -190,6 +231,12 @@
 					<div class="card-content center">
 						<p>Usado actualmente.</p>
 					</div>
+					<div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+				      <p>Manejo de interfaz.</p>
+				      <p>Manipulación de información con JSON.</p>
+				      <p>Desarrollo de aplicaciones con HTML5/Javascript.</p>
+				    </div>
 					<div class="card-action center">
 						<a href="#">5 años de uso</a>
 					</div>
@@ -203,6 +250,10 @@
 					<div class="card-content center">
 						<p>No usado actualmente.</p>
 					</div>
+					<div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+				      <p>Aplicaciones de escritorio para areas contables.</p>
+				    </div>
 					<div class="card-action center">
 						<a href="#">2 años de uso</a>
 					</div>
@@ -216,6 +267,10 @@
 					<div class="card-content center">
 						<p>Usado actualmente.</p>
 					</div>
+					<div class="card-reveal">
+				      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+				      <p>Diseño de sitios web desde 0.</p>
+				    </div>
 					<div class="card-action center">
 						<a href="#">3 años de uso</a>
 					</div>
