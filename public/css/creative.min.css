@@ -70,13 +70,7 @@ body{
     -moz-transition:all .2s;
     transition:all .2s
 }
-#mainNav .navbar-brand{
-     
-    text-transform:uppercase;
-    color:#0c0818;
-    font-family: "Rhinos";
-    font-size: 24px;
-}
+
 #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
     color:#0c0818
 }
