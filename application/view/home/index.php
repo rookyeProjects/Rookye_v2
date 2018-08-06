@@ -27,6 +27,47 @@
          position: relative;
          top: 50px;
          }
+
+           .banner {
+    width:99%; 
+}
+ .Encabezado {
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+ .Encabezadomini {
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    position: absolute;
+    top: 2%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.Encabezado h1,  {
+    font-size: 40px;
+}
+
+.Encabezadomini h1 {
+
+    font-size: 20px;
+} 
+
       </style>
 
       <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
@@ -34,190 +75,229 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: -webkit-linear-gradient(left top, #4E4D5C, black);
-  background: linear-gradient(left top, #4E4D5C, black);
+  background: -webkit-linear-gradient(top, #130007, #fff);
+  background: linear-gradient(left top, #130007, #fff);
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
+.presentacion
+{
+  width: 300px;
+    height: 100px;
+     
+    position: absolute;
+     
+    right: 10px;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    z-index: 3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #4c4c4c;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
-
-.wrapper {
-  width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: no-wrap;
-      flex-wrap: no-wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-.wrapper figure {
-  position: relative;
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  text-align: center;
-  overflow: hidden;
-}
-@media (min-width: 1px) and (max-width: 768px) {
-  .wrapper figure {
-    text-align: left;
+.presentacion p
+{
+  font-size: 14px;
+  margin-top: 5px;
   }
+
+  .btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+
+    }
+
+    .btn-primary {
+    background-color: #0c0818;
+    border-color: #0c0818;
 }
-.wrapper figure:hover figcaption {
-  bottom: 10em;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-}
-.wrapper figure figcaption {
-  position: absolute;
-  bottom: -22em;
-  left: 3em;
-  width: 80%;
-  background: rgba(253, 164, 40, 0.8);
-  padding: 1em;
-  border-radius: 0.5em;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
-  -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
-  overflow: hidden;
-}
-@media (min-width: 1px) and (max-width: 768px) {
-  .wrapper figure figcaption {
-    padding: 0.2em;
-    border-radius: none;
-    left: 0;
-    width: 100%;
+
+.serviceBox{
+    padding-bottom: 20px;
     text-align: center;
-  }
-  .wrapper figure figcaption:hover {
+    position: relative;
+}
+.serviceBox:before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #1d1a3f;
+    position: absolute;
     bottom: 0;
-  }
+    left: 0;
+    transform: scale(0);
+    transition: all 0.5s ease 0s;
 }
-.wrapper figure img {
-  display: block;
-  width: 100%;
-  height: auto;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+.serviceBox:hover:before{ transform: scale(1); }
+.serviceBox .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #1d1a3f;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
 }
-.wrapper figure h2 {
-  color: white;
-  font-size: 2.5em;
-  word-spacing: -0.2em;
-  font-family: "Chelsea Market", cursive;
+.serviceBox .service-icon{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #1d1a3f;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    margin: 50px 0;
+    position: relative;
 }
-@media (min-width: 1px) and (max-width: 768px) {
-  .wrapper figure h2 {
-    font-size: 1.5em;
-  }
+.serviceBox .service-icon:before,
+.serviceBox .service-icon:after{
+    content: "";
+    width: 3px;
+    height: 40px;
+    background: #1d1a3f;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
 }
-.wrapper figure p {
-  color: white;
-  margin-top: -1.2em;
-  font-size: 1.3em;
-  font-family: "Quicksand", sans-serif;
+.serviceBox .service-icon:after{
+    top: auto;
+    bottom: -40px;
 }
-@media (min-width: 1px) and (max-width: 768px) {
-  .wrapper figure p {
-    font-size: 1em;
-    margin-top: 0.5em;
-  }
+.serviceBox .service-icon span{
+    display: block;
+    font-size: 50px;
+    color: #8d8d8d;
+    line-height: 130px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999 ;
 }
-.wrapper figure a {
-  color: white;
-  text-decoration: none;
-  background: green;
-  padding: 1em;
-  border-radius: 0.6em 0.6em 0 0;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
-}R
-@media (min-width: 1px) and (max-width: 768px) {
-  .wrapper figure a {
-    font-size: 0.8em;
-  }
+.serviceBox .service-icon span:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #fa5f69;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
 }
-.wrapper figure a:hover {
-  background: #334832;
+.serviceBox:hover .service-icon span:before{ transform: rotateY(180deg); }
+.serviceBox .description{
+    font-size: 15px;
+    color: #505050;
+    line-height: 27px;
+    margin: 0;
+}
+.serviceBox.blue .service-icon span:before{ background: #0babc7; }
+.serviceBox.yellow .service-icon span:before{ background: #f5b43b; }
+.serviceBox.green .service-icon span:before{ background: #2e9749; }
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}
+
+.blue {
+    color: blue;
+}
+  
+.pricingTable{
+    text-align: center;
+    background: #28b6f6;
+    border-radius: 102px 0 102px 0;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable:hover{ box-shadow: 0 0 10px rgba(0,0,0,0.5); }
+.pricingTable .pricingTable-header{
+    margin: -2px -5px 0;
+    position: relative;
+}
+.pricingTable .pricing-content{
+    padding: 0;
+    margin: -25px 0 0 0;
+    list-style: none;
+}
+.pricingTable .pricing-content li{
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #fff;
+}
+.pricingTable .pricing-content li.disable{ color: rgba(255,255,255,0.5); }
+.pricingTable .pricing-content li:last-child{ border-bottom: none; }
+.pricingTable .pricingTable-signup{
+    padding: 25px 0;
+}
+.pricingTable .pricingTable-signup a path,
+.pricingTable .pricingTable-signup a text{ transition: all 0.3s ease 0s; }
+.pricingTable .pricingTable-signup a:hover path{
+    fill: #34454d;
+    stroke: #fff;
+    stroke-dasharray: 5,3;
+}
+.pricingTable .pricingTable-signup a:hover text{ fill: #fff; }
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin-bottom: 30px; }
 }
 </style>
 
 
    </head>
    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="container">
+    <div class="row">
+      <img class="banner" src="<?php echo URL;
+                           ?>img/home/rookye_creacion_paginas_web.jpg" alt="Crea tu pagina web">
+                         </div>
+      <div class="Encabezado hidden-sm hidden-xs">
       <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <div id="carousel-Rookye" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators --> 
-                  <ol class="carousel-indicators">
-                     <li data-target="#carousel-Rookye" data-slide-to="0" class="active"></li>
-                     <li data-target="#carousel-Rookye" data-slide-to="1"></li>
-                     <li data-target="#carousel-Rookye" data-slide-to="2"></li>
-                     <li data-target="#carousel-Rookye" data-slide-to="4"></li>
-                  </ol>
-                  <!-- Wrapper for slides --> 
-                  <div class="carousel-inner" role="listbox">
-                     <div class="item active">
-                        <img src="img/portfolio/fullsize/7.jpg" alt=""> 
-                        <div class="carousel-caption">
-                           <div class="service-box mt-5 mx-auto">
-                              <i class="material-icons">stay_current_landscape</i> 
-                              <h3 class="mb-3">Diseño adaptable</h3>
-                              <p class="text-muted mb-0">Una interfaz amigable, personalizada y a la medida de cualquier dispositivo segun las necesidades del cliente.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item">
-                        <img src="img/portfolio/fullsize/7.jpg" alt=""> 
-                        <div class="carousel-caption">
-                           <div class="service-box mt-5 mx-auto">
-                              <i class="material-icons">create</i> 
-                              <h3 class="mb-3">Encaja a la perfección</h3>
-                              <p class="text-muted mb-0">Programacion perzonalizada para cada aspecto de su negocio aumentando la productividad.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item">
-                        <img src="img/portfolio/fullsize/7.jpg" alt=""> 
-                        <div class="carousel-caption">
-                           <div class="service-box mt-5 mx-auto">
-                              <i class="material-icons">computer</i> 
-                              <h3 class="mb-3">Ultimas tecnologias</h3>
-                              <p class="text-muted mb-0">Desarrollamos nuestras tecnologias mediante PHP, MySQL, JavaScript, AJAX, jQuery y muchos más.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item">
-                        <img src="img/portfolio/fullsize/7.jpg" alt=""> 
-                        <div class="carousel-caption">
-                           <div class="service-box mt-5 mx-auto">
-                              <i class="material-icons">favorite</i> 
-                              <h3 class="mb-3">Hechas con amor</h3>
-                              <p class="text-muted mb-0">A travez del tiempo hemos perfeccionado una solida base de experiencia en tecnologias para aplicarlas en estrategias comerciales y administrativas. </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Controls --> <a class="left carousel-control" href="#carousel-Rookye" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-Rookye" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
-               </div>
+        <div class="row">
+          <div class="col-md-offset-4 col-sm-offset-4 col-md-4 col-lg-offset-3 col-lg-6 col-sm-4">
+             <h1>Creamos tu página web</h1>
+              <div class="row">
+              <div id="btnAncla" class="col-xs-offset-3 col-xs-6 col-sm-6">
+               <a data-toggle="modal" data-target="#rookye_modal" class="btn btn-primary active">
+                <i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Agenda tu cita</a>
+           
+              </div>
             </div>
-         </div>
+          </div>
+          <div class="col-md-offset-9 col-md-3 col-lg-offset-9 col-lg-3 hidden-sm hidden-xs">
+            <div class="presentacion">
+              <p>Somos una empresa que brinda soluciones informaticas a la medida de las necesidades de la empresa,
+                con una vision hacia el futuro con eficiencia y eficacia desde los inicios.</p>
+            </div> 
+        </div>
       </div>
+    </div></div>
+    <div class="Encabezadomini hidden-lg hidden-md" >
+      <div class="col-xs-offset-1 col-xs-12 ">
+             <h1>Creamos tu página web</h1>
+           
+           <div>
+             <a href="#contacto" class="btn btn-primary active">
+                <i class="glyphicon glyphicon-phone" aria-hidden="true"></i> Agenda tu cita</a>
+           </div>
+         </div>
+      
+
+    </div>
       <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
          <div class="container-fluid">
             <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand rokye" href="#">Rookye</a> </div>
@@ -234,146 +314,234 @@ html, body {
          </div>
       </nav>
       <div id="acerca" class="container-fluid">
-         <section class="bg-primary" id="about">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-8 mx-auto text-center">
-                     <h2 class="section-heading text-white">Sistemas a la Medida</h2>
-                     <hr class="light my-4">
-                     <p class="text-faded mb-4">Cualquier necesidad , trabanjado juntos para proporcionar soluciones para proyectos de información utilizando sistemas y tecnologías específicos para cada clientes.</p>
-                     <a class="btn btn-light btn-xl js-scroll-trigger" href="#services"> Cotizar </a> 
-                  </div>
-               </div>
+         <section  id="about">
+          <br><br>
+          <div class="container">
+
+        <div class="row">
+          <br>
+          <div class="col-lg-3 col-md-6 text-center">
+
+            <div class="serviceBox red">
+                <h3 class="title">Con un  Diseño  adaptable</h3>
+                <div class="service-icon">
+                    <span> <i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i> </span>
+                </div>
+                <p class="description">
+                    Una interfaz amigable, personalizada y a la medida de cualquier dispositivo segun las necesidades del cliente.
+                </p>
             </div>
+          </div>
+
+           <div class="col-lg-3 col-md-6 text-center">
+
+            <div class="serviceBox blue">
+                <h3 class="title">Encaja a la perfección</h3>
+                <div class="service-icon">
+                    <span><i class="glyphicon glyphicon-globe"></i></span>
+                </div>
+                <p class="description">
+                    Programacion perzonalizada para cada aspecto de su negocio aumentando la productividad.
+                </p>
+            </div>
+          </div>
+
+           <div class="col-lg-3 col-md-6 text-center">
+
+            <div class="serviceBox green">
+                <h3 class="title">Ultimas tecnologias</h3>
+                <div class="service-icon">
+                    <span><i class="glyphicon glyphicon-wrench"></i></span>
+                </div>
+                <p class="description">
+                    Desarrollamos nuestras tecnologias mediante PHP, MySQL, JavaScript, AJAX, jQuery y muchos más.
+                </p>
+            </div>
+          </div>
+
+           <div class="col-lg-3 col-md-6 text-center">
+
+            <div class="serviceBox yellow">
+                <h3 class="title">Hechas con amor y personalidad</h3>
+                <div class="service-icon">
+                    <span><i class="glyphicon glyphicon-heart-empty"></i></span>
+                </div>
+                <p class="description">
+                    A travez del tiempo hemos perfeccionado una solida base de experiencia en tecnologias para aplicarlas en estrategias comerciales y administrativas.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+             
+
+
+             
          </section>
       </div>
       <div id="servicios" class="container-fluid">
          <section id="services">
-            <div class="container">
-                
-<section class="wrapper">
-  <figure><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/149454/food1-brooke-lark.jpg" alt="food in a table"/>
-    <figcaption>
-      <h2>Lorem ipsum </h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla iusto sequi quos hic nobis ipsa inventore eius laborum nam saepe obcaecati.</p><a class="hove_me" href="#"> CTA</a>
-    </figcaption>
-  </figure>
-  <figure><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/149454/food4-maria-mekht.jpg" alt="food in a table"/>
-    <figcaption>
-      <h2>Lorem ipsum </h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla iusto sequi quos hic nobis ipsa inventore eius laborum nam saepe obcaecati.</p><a class="hove_me" href="#"> CTA</a>
-    </figcaption>
-  </figure>
-</section>
+<br>
+          <div >
+    <div class="container"><br>
+        <div class="row"><br>
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingTable">
+                    <div class="pricingTable-header">
+                        <svg x="0px" y="0px" viewBox="0 0 260 180">
+                            <path fill="#34454d" stroke-dasharray="5,5" stroke="#fff" d="M0,180.928c0,0,0-108.489,0-143.333C1.637,23.582,8.907,0,42.088,0C75.271,0,260,0,260,0v72.841
+                            c0,0-2.667,37.424-43.877,45.563C177.693,125.992,6.26,130.42,0,180.928z"></path>
+                            <text transform="matrix(1.0078 0 0 1 75.9497 33.8887)" fill="#fff" font-size="23.726">Basico</text>
+                            <g>
+                                <text transform="matrix(1.0078 0 0 1 98.5996 65.9434)" fill="#fff" font-size="23.726">$</text>
+                                <text transform="matrix(1.076 0 0 1 112.0176 88.458)" fill="#fff" font-size="58.1472" font-weight="600">1000</text>
+                                <text transform="matrix(1.0078 0 0 1 107.9326 106.832)" fill="#fff" font-size="16.2415">Iniciando</text>
+                            </g>
+                        </svg>
+                    </div>
+                    <ul class="pricing-content">
+                        <li>Dominio</li>
+                        <li>Etc</li>
+                        <li>Etc</li>
+                        <li class="disable">no tiene</li>
+                        <li class="disable">le falta</li>
+                    </ul>
+                    <div class="pricingTable-signup">
+                        <svg x="0" y="0" viewBox="-35 0 160 30">
+                            <a href="#">
+                                <path fill="#fff" d="M13.12,5.867c17.786-0.834,68.654-5.473,68.654-5.473s8.203-1.945,7.445,5.473
+                                c-0.757,7.417-4.037,16.782-4.037,16.782s-1.667,5.881-9.719,6.932c-8.961,0.852-50.858-0.983-67.771,0
+                                c-2.718,0.158-9.935,0.256-7.446-7.66c2.736-9.18,3.408-10.459,3.408-10.459S5.647,5.86,13.12,5.867z"></path>
+                                <text transform="matrix(1 0 0 1 15.5055 21.0098)" fill="#34454D" font-size="10" font-weight="600">Contratar</text>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingTable">
+                    <div class="pricingTable-header">
+                        <svg x="0px" y="0px" viewBox="0 0 260 180">
+                            <path fill="#34454d" stroke-dasharray="5,5" stroke="#fff" d="M0,180.928c0,0,0-108.489,0-143.333C1.637,23.582,8.907,0,42.088,0C75.271,0,260,0,260,0v72.841
+                            c0,0-2.667,37.424-43.877,45.563C177.693,125.992,6.26,130.42,0,180.928z"></path>
+                            <text transform="matrix(1.0078 0 0 1 75.9497 33.8887)" fill="#fff" font-size="23.726">Pyme</text>
+                            <g>
+                                <text transform="matrix(1.0078 0 0 1 98.5996 65.9434)" fill="#fff" font-size="23.726">$</text>
+                                <text transform="matrix(1.076 0 0 1 112.0176 88.458)" fill="#fff" font-size="58.1472" font-weight="600">4000</text>
+                                <text transform="matrix(1.0078 0 0 1 107.9326 106.832)" fill="#fff" font-size="16.2415">Inicia</text>
+                            </g>
+                        </svg>
+                    </div>
+                    <ul class="pricing-content">
+                        <li>Paquete Basico</li>
+                        <li>email</li>
+                        <li>Etc</li>
+                        <li>Etc</li>
+                        <li class="disable">Etc</li>
+                    </ul>
+                    <div class="pricingTable-signup">
+                        <svg x="0" y="0" viewBox="-35 0 160 30">
+                            <a href="#">
+                                <path fill="#fff" d="M13.12,5.867c17.786-0.834,68.654-5.473,68.654-5.473s8.203-1.945,7.445,5.473
+                                c-0.757,7.417-4.037,16.782-4.037,16.782s-1.667,5.881-9.719,6.932c-8.961,0.852-50.858-0.983-67.771,0
+                                c-2.718,0.158-9.935,0.256-7.446-7.66c2.736-9.18,3.408-10.459,3.408-10.459S5.647,5.86,13.12,5.867z"></path>
+                                <text transform="matrix(1 0 0 1 15.5055 21.0098)" fill="#34454D" font-size="10" font-weight="600">Contratar</text>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+            </div>
 
+             <div class="col-md-3 col-sm-6">
+                <div class="pricingTable">
+                    <div class="pricingTable-header">
+                        <svg x="0px" y="0px" viewBox="0 0 260 180">
+                            <path fill="#34454d" stroke-dasharray="5,5" stroke="#fff" d="M0,180.928c0,0,0-108.489,0-143.333C1.637,23.582,8.907,0,42.088,0C75.271,0,260,0,260,0v72.841
+                            c0,0-2.667,37.424-43.877,45.563C177.693,125.992,6.26,130.42,0,180.928z"></path>
+                            <text transform="matrix(1.0078 0 0 1 75.9497 33.8887)" fill="#fff" font-size="23.726">Ejecutivo</text>
+                            <g>
+                                <text transform="matrix(1.0078 0 0 1 98.5996 65.9434)" fill="#fff" font-size="23.726">$</text>
+                                <text transform="matrix(1.076 0 0 1 112.0176 88.458)" fill="#fff" font-size="58.1472" font-weight="600">6000</text>
+                                <text transform="matrix(1.0078 0 0 1 107.9326 106.832)" fill="#fff" font-size="16.2415">Inicia</text>
+                            </g>
+                        </svg>
+                    </div>
+                    <ul class="pricing-content">
+                        <li>Paquete Pyme</li>
+                        <li>Mas</li>
+                        <li>Etc</li>
+                        <li>Etc</li>
+                        <li class="disable">Etc</li>
+                    </ul>
+                    <div class="pricingTable-signup">
+                        <svg x="0" y="0" viewBox="-35 0 160 30">
+                            <a href="#">
+                                <path fill="#fff" d="M13.12,5.867c17.786-0.834,68.654-5.473,68.654-5.473s8.203-1.945,7.445,5.473
+                                c-0.757,7.417-4.037,16.782-4.037,16.782s-1.667,5.881-9.719,6.932c-8.961,0.852-50.858-0.983-67.771,0
+                                c-2.718,0.158-9.935,0.256-7.446-7.66c2.736-9.18,3.408-10.459,3.408-10.459S5.647,5.86,13.12,5.867z"></path>
+                                <text transform="matrix(1 0 0 1 15.5055 21.0098)" fill="#34454D" font-size="10" font-weight="600">Contratar</text>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
             </div>
-            <div class="container">
-               <div class="row"> </div>
+
+             <div class="col-md-3 col-sm-6">
+                <div class="pricingTable">
+                    <div class="pricingTable-header">
+                        <svg x="0px" y="0px" viewBox="0 0 260 180">
+                            <path fill="#34454d" stroke-dasharray="5,5" stroke="#fff" d="M0,180.928c0,0,0-108.489,0-143.333C1.637,23.582,8.907,0,42.088,0C75.271,0,260,0,260,0v72.841
+                            c0,0-2.667,37.424-43.877,45.563C177.693,125.992,6.26,130.42,0,180.928z"></path>
+                            <text transform="matrix(1.0078 0 0 1 75.9497 33.8887)" fill="#fff" font-size="23.726">Plus</text>
+                            <g>
+                                <text transform="matrix(1.0078 0 0 1 98.5996 65.9434)" fill="#fff" font-size="23.726">$</text>
+                                <text transform="matrix(1.076 0 0 1 112.0176 88.458)" fill="#fff" font-size="58.1472" font-weight="600">9000</text>
+                                <text transform="matrix(1.0078 0 0 1 107.9326 106.832)" fill="#fff" font-size="16.2415">Inicia</text>
+                            </g>
+                        </svg>
+                    </div>
+                    <ul class="pricing-content">
+                        <li>Paquete Ejecitivo</li>
+                        <li>mas</li>
+                        <li>Etc</li>
+                        <li>Etc</li>
+                        <li class="disable">Etc</li>
+                    </ul>
+                    <div class="pricingTable-signup">
+                        <svg x="0" y="0" viewBox="-35 0 160 30">
+                            <a href="#">
+                                <path fill="#fff" d="M13.12,5.867c17.786-0.834,68.654-5.473,68.654-5.473s8.203-1.945,7.445,5.473
+                                c-0.757,7.417-4.037,16.782-4.037,16.782s-1.667,5.881-9.719,6.932c-8.961,0.852-50.858-0.983-67.771,0
+                                c-2.718,0.158-9.935,0.256-7.446-7.66c2.736-9.18,3.408-10.459,3.408-10.459S5.647,5.86,13.12,5.867z"></path>
+                                <text transform="matrix(1 0 0 1 15.5055 21.0098)" fill="#34454D" font-size="10" font-weight="600">Contratar</text>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
             </div>
-         </section>
-      </div>
+        </div>
+    </div>
+</div>
+            
+                
+ 
+        </section>
+       </div>
+              
       <div id="proyecto" class="container-fluid">
          <section class="p-0" id="portfolio">
-            <div class="container-fluid p-0">
-               <div class="row no-gutters popup-gallery">
-                  <div class="col-lg-4 col-sm-6">
-                     <a class="portfolio-box" href="<?php echo URL;
-                        ?>img/portfolio/fullsize/5.jpg">
-                        <img class="img-fluid" src="<?php echo URL;
-                           ?>img/portfolio/fullsize/5.jpg" alt=""> 
-                        <div class="portfolio-box-caption">
-                           <div class="portfolio-box-caption-content">
-                              <div class="project-category text-faded"> Paginas web basicas </div>
-                              <div class="project-name"> Desde 4 mil pesos </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-4 col-sm-6">
-                     <a class="portfolio-box" href="<?php echo URL;
-                        ?>img/portfolio/fullsize/4.jpg">
-                        <img class="img-fluid" src="<?php echo URL;
-                           ?>img/portfolio/fullsize/4.jpg" alt=""> 
-                        <div class="portfolio-box-caption">
-                           <div class="portfolio-box-caption-content">
-                              <div class="project-category text-faded"> Paginas web con base de datos </div>
-                              <div class="project-name"> desde 6 mil pesos </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-4 col-sm-6">
-                     <a class="portfolio-box" href="<?php echo URL;
-                        ?>img/portfolio/fullsize/1.jpg">
-                        <img class="img-fluid" src="<?php echo URL;
-                           ?>img/portfolio/fullsize/1.jpg" alt=""> 
-                        <div class="portfolio-box-caption">
-                           <div class="portfolio-box-caption-content">
-                              <div class="project-category text-faded"> Sistemas Administrativos </div>
-                              <div class="project-name"> Desde 10 mil pesos </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-4 col-sm-6">
-                     <a class="portfolio-box" href="<?php echo URL;
-                        ?>img/portfolio/fullsize/6.jpg">
-                        <img class="img-fluid" src="<?php echo URL;
-                           ?>img/portfolio/fullsize/6.jpg" alt=""> 
-                        <div class="portfolio-box-caption">
-                           <div class="portfolio-box-caption-content">
-                              <div class="project-category text-faded"> Sistemas de capacitacion </div>
-                              <div class="project-name"> Desde 8 mil pesos </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-4 col-sm-6">
-                     <a class="portfolio-box" href="<?php echo URL;
-                        ?>img/portfolio/fullsize/2.jpg">
-                        <img class="img-fluid" src="<?php echo URL;
-                           ?>img/portfolio/fullsize/2.jpg" alt=""> 
-                        <div class="portfolio-box-caption">
-                           <div class="portfolio-box-caption-content">
-                              <div class="project-category text-faded"> Gestion de Inventarios </div>
-                              <div class="project-name"> Desde 15 mil pesos </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-4 col-sm-6">
-                     <a class="portfolio-box" href="<?php echo URL;
-                        ?>img/portfolio/fullsize/3.jpg">
-                        <img class="img-fluid" src="<?php echo URL;
-                           ?>img/portfolio/fullsize/3.jpg" alt=""> 
-                        <div class="portfolio-box-caption">
-                           <div class="portfolio-box-caption-content">
-                              <div class="project-category text-faded"> Tienda Web </div>
-                              <div class="project-name"> Desde 25 mil pesos </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-            </div>
+           
+             
          </section>
       </div>
-      <div class="container-fluid">
-         <section class="bg-dark text-white">
-            <div class="container text-center">
-               <h2 class="mb-4">Mejora tu negocio</h2>
-               <p> Es tiempo de llevar tu negocio a la era de la tecnologia</p>
-               <a class="btn btn-light btn-xl sr-button" href="">Inicia ahora</a> 
-            </div>
-         </section>
-      </div>
+     
       <div id="contacto" class="container-fluid">
          <section id="contact">
             <div class="container">
                <div class="row">
                   <div class="col-lg-8 mx-auto text-center">
                      <h2 class="section-heading">Contactanos!</h2>
-                     <a class="btn btn-xl" data-toggle="modal" data-target="#myModal">Enviar mensaje a Rookye</a> 
+                     <a class="btn btn-xl" data-toggle="modal" data-target="#rookye_modal">Enviar mensaje a Rookye</a> 
                      <hr class="my-4">
                      <p class="mb-5">Ponte en contacto con nosotros para conocer tus necesidades y darte una solucion basados en tu presupuesto </p>
                   </div>
@@ -429,13 +597,15 @@ html, body {
             </div>
          </section>
       </div>
-      <div id="myModal" class="modal fade" role="dialog">
+      <div id="rookye_modal" class="modal fade col-md-offset-4 col-md-4 col-lg-offset-3 col-lg-6" role="dialog">
          <form name="form_contacto" class="navbar-form navbar-left" role="search" method="POST" action="../../app/GuardaContacto.php">
             <div class="modal-dialog">
                <!-- Modal content--> 
                <div class="modal-content">
                   <div class="modal-header">
-                     <h4 class="modal-title">Formulario de contacto</h4>
+                    <div class="col-md-11" ><h4 class="modal-title">Formulario de contacto</h4></div>
+                     
+                     <div class="col-md-1" ><button type="button" class="btn" data-dismiss="modal">X</button> </div>
                   </div>
                   <div class="modal-body">
                      <div class="input-group"> <input type="text" class="form-control" placeholder="Nombre(s)" name="nombre" aria-describedby="basic-addon2"> </div>
@@ -447,10 +617,15 @@ html, body {
                         <div class="alert alert-danger" id="valido" role="alert">...</div>
                      </div>
                      <div class="input-group"> <textarea class="form-control" rows="5" name="mensaje" id="comment"></textarea> </div>
-                     <button type="button" class="btn btn-default" name="guardarContacto" onclick="enviarCorreo();
-                        ">Enviar</button> 
+                    
                   </div>
-                  <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button> </div>
+                  <div class="modal-footer">
+
+ <div class="col-md-8"> </div>
+<div class="col-md-4" > <button type="button" class="btn btn-primary active" name="guardarContacto" onclick="enviarCorreo();
+                        ">Enviar</button> </div>
+                 
+                  </div>
                </div>
             </div>
          </form>
